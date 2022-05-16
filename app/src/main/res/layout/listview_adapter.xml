@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:onClick="onAddedClicked"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center_vertical" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:autofillHints="Qty"
+        android:ems="10"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/checkbox_added"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.5" />
+
+</LinearLayout>
