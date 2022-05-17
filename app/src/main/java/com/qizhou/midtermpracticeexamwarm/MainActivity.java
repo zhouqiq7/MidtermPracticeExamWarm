@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         return shoppingCars;
     }
 
-    public void onSubmit(View view) {
+    public void onCheckout(View view) {
         double totalAmount = 0.0;
         for (ShoppingCar s : shoppingCars) {
             if (s.getAdded() && Objects.nonNull(s.getQuantity())) {

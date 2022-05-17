@@ -6,7 +6,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="313dp"
+        android:layout_width="402dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/list_title"
@@ -21,11 +21,11 @@
         android:smoothScrollbar="true" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/checkout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onSubmit"
-        android:text="@string/button_submit" />
+        android:onClick="onCheckout"
+        android:text="@string/button_checkout" />
 
     <TextView
         android:id="@+id/total_amount"
